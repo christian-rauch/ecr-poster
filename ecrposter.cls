@@ -227,9 +227,9 @@
 		\node[fill=white,minimum height=\footerheight, minimum width=\linewidth,anchor=south] at (0, -0.5\textheight) {\parbox{\TP@titlewidth-\TP@titleinnersep}{%
 			\vspace{0.5\baselineskip}
 			\hspace{0.5\TP@titleinnersep}
-			\begin{minipage}[t]{0.14\linewidth}
+			\begin{minipage}[t]{0.17\linewidth}
 				\vspace*{0pt}
-				\includegraphics[valign=c,height=0.02\textheight]{logos/EPSRC_Logo.pdf}
+				\includegraphics[valign=c,height=0.846cm]{logos/MSRLogoDigitalBlack.png}
 			\end{minipage}%
 			\begin{minipage}[t]{0.45\linewidth}
 				\vspace*{0pt}
@@ -238,6 +238,11 @@
 					{\small \@acknowledgement}
 				}
 			\end{minipage}%
+			\hfill%
+			\begin{minipage}[t]{1mm}
+				\vspace*{0pt}
+				\includegraphics[valign=c,scale=1.5]{qr.pdf}
+			\end{minipage}
 			\hfill%
 			\begin{minipage}[t]{0.3\linewidth}
 				\vspace*{0pt}
